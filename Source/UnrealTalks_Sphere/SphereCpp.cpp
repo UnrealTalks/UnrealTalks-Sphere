@@ -23,13 +23,6 @@ ASphereCpp::ASphereCpp(const FObjectInitializer &ObjectInitializer) : Super(Obje
 	Sphere->SetupAttachment(RootComponent);
 }
 
-// Called when the game starts or when spawned
-void ASphereCpp::BeginPlay()
-{
-	Super::BeginPlay();
-	
-}
-
 // Called every frame
 void ASphereCpp::Tick(float DeltaTime)
 {
@@ -40,3 +33,10 @@ void ASphereCpp::Tick(float DeltaTime)
 	Sphere->SetRelativeLocation(FVector(0,0,zLoc));
 }
 
+
+// Called when the game starts or when spawned
+void ASphereCpp::BeginPlay()
+{
+	Super::BeginPlay();
+	
+}
