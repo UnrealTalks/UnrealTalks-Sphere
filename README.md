@@ -3,7 +3,7 @@ The project demonstrates different examples of how to move a sphere up and down 
 
 This is an open source community project so feel free to add your own examples.
 
-Testing a pull request. (This line can be deleted by anyone). --Natt  
+using UE4.19
 
 ![SphereAniSS](/assets/SphereAniSS.gif)
 
