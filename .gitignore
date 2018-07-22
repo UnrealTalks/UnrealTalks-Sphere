@@ -1,5 +1,4 @@
 # UE4 Project directories to ignore
-Workshop3.code-workspace
 .vscode/*
 Binaries/*
 Intermediate/*
